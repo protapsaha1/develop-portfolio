@@ -1,0 +1,49 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header styles */
+
+.head--{
+    background-color: whitesmoke;
+    padding: 0px auto;
+
+}
+/* pera */ 
+.right .right--{
+    text-align: right;
+}
+.right-- .span-extra{
+    color: #757575;
+    font-family: 'Alegreya SC', serif;
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.right--{
+    font-size: 30px;
+    font-weight:700 ;
+    padding: 100px 150px 100px;
+}
+
+.right-- .tube--{
+    color: #757575;
+    font-size: 18px;
+}
+
+  .contect{
+    background-color: rgb(247, 134, 6);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+     
+}
+
+.bulp--{
+       
+   padding-left: 200px; ;
+   padding-bottom: 200px;
+   height: 500px;
+   width: 500px;
+    
+} 
