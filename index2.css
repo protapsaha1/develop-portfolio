@@ -68,7 +68,7 @@
     background-color: white;
     display: flex;
     align-items: center;
-    width: 1140;
+   
 }
 .main-con .text-title{
     font-size: 40px;
@@ -76,19 +76,29 @@
 }
      
 .main-con{
-    padding: 200px 200px;
+    padding-left: 600px;
 }
 .image{
     padding: 100px;
-    margin-left: 300px;
+    margin-left: 200px;
+    padding-right: 500px;
 }
 
 /* my plan section */
+
 .myplan{
+    text-align: center;
+    
+   
+}
+
+.my_plan {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
-    /* padding-bottom: 300px; */
+    
+    
+    
 }
 .my-plan {
     display: flex;
@@ -97,11 +107,14 @@
     gap: 50px;
     position: relative;
     text-align: center;
+    box-sizing: border-box;
+    padding: 0px 600px;
 }
 .para{
     font-size: 25px;
     font-weight: 600;
     padding-top: 10px;
+
 }
 .par{
     color: #757575;
@@ -112,6 +125,8 @@
 
 .plan{
     padding-top: 100px;
+   
+   
 }
 
 /* text in image */
@@ -119,7 +134,6 @@
 .textin-image{
     text-align: left;
     background-image: url(gradient3.png), url(watch.png) ;
-    /* background-color: #cccccc; */
     background-repeat: no-repeat;
     background-position: center,center;
     align-items: center;
@@ -202,10 +216,11 @@
     
 }
 .form{
-    padding-left: 400px;
+    padding-left: 800px;
    
 }
 .subscribe .email{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
    
 }
+/* end */
