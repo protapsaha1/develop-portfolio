@@ -7,6 +7,8 @@
 .head--{
     background-color: whitesmoke;
     padding: 0px auto;
+    width: 1140;
+    align-items: center;
 
 }
 
@@ -57,6 +59,153 @@
    height: 500px;
    width: 500px;
    padding-top: 100px;
+   text-align: right;
 } 
+
 /* ---------------header end main start----------- */
 
+.failures{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 1140;
+}
+.main-con .text-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+     
+.main-con{
+    padding: 200px 200px;
+}
+.image{
+    padding: 100px;
+    margin-left: 300px;
+}
+
+/* my plan section */
+.myplan{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    /* padding-bottom: 300px; */
+}
+.my-plan {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    gap: 50px;
+    position: relative;
+    text-align: center;
+}
+.para{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.par{
+    color: #757575;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+
+.plan{
+    padding-top: 100px;
+}
+
+/* text in image */
+
+.textin-image{
+    text-align: left;
+    background-image: url(gradient3.png), url(watch.png) ;
+    /* background-color: #cccccc; */
+    background-repeat: no-repeat;
+    background-position: center,center;
+    align-items: center;
+    height: 1000px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.textin{
+    align-items: center;
+    position: absolute;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+  
+
+.positve{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* call button */
+.call{
+    color: rgb(230, 63, 63);
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    margin-top: 90px;
+}
+/* footer style */
+
+.foot{
+    color: white;
+    background-color: black;
+    display: flex;
+    position: relative;
+    height: 500px;
+}
+.future{
+    padding-left: 300px;
+}
+
+.ti-tle{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 100px;
+   
+}
+
+.form h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+.email{
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 15px 50px 10px 15px;
+    background-color: black;
+
+}
+.subs{
+    color: rgb(230, 63, 63);
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.form{
+    padding-left: 400px;
+   
+}
+.subscribe .email{
+    margin-bottom: 10px;
+   
+}
